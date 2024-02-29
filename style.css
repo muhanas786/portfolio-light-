@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    /* background-image: url("bg.png"); */
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(0, 0, 0);
+    width: 280px;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 40px;
+    position: fixed;
+}
+
+.sidebar li{
+    list-style: none;
+    font-size: 20px;
+    padding: 27px 4px;
+}
+.sidebar a{
+    color:  rgb(6, 165, 170);
+    text-decoration: none;
+}
+.sidebar a:hover{
+    transition: all ease 0.5s;
+    padding :5px;
+    color: aquamarine;
+}
+.main {
+    width: 90vw;
+    color: white;
+}
+
+.infocont{
+    position: relative;
+    display: flex;
+    width: 80vw;
+    height: 70vh;
+    border-radius: 20px;
+    margin: 168px auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(0,0, 0, 0.45);
+    overflow:hidden
+}
+.devimg img{
+    height: 70vh;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    font-size: 80px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about{
+    font-size: 50px;
+    cursor: pointer;
+}
+.aboutmore{
+    font-size: 30px;
+    cursor: pointer;
+}
+.buttons button{
+    color: rgb(0, 247, 255);
+    
+    background-color: rgb(48, 50, 197);
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.buttons button:hover{
+    cursor: pointer;
+    
+    background-color: rgb(0, 247, 255);
+    
+    color: rgb(48, 50, 197);
+    transition: all ease 0.5s;
+}
+
+.form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 35px; */
+    align-items: center;
+    /* justify-content: center; */
+    margin: auto;
+}
+.form h1{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.form input{
+    padding: 2px 200px;
+    margin: 13px;
+    background-color: rgb(185, 181, 181);
+    border-radius: 15px;
+
+}
+.form label{
+    font-size: 25px;
+    cursor: pointer;
+}
+#c{
+    margin-top: 15px;
+    margin: auto;
+}
+#b{
+    color: rgb(0, 247, 255);
+    
+    background-color: rgb(48, 50, 197);
+    cursor: pointer;
+    padding: 5px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+#b:hover{
+    cursor: pointer;
+    
+    background-color: rgb(0, 247, 255);
+    
+    color: rgb(48, 50, 197);
+    transition: all ease 0.5s;
+}
+
+.form p{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+.abcont{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-items: center;
+}
+.abcont div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80vh;
+    height: 50vh;
+    background-color: rgba(0,0, 0, 0.5);
+    border-radius: 10px;
+    
+    text-align: center;
+}
+#H{
+    font-size: 30px;
+    color: aqua;
+}
+.abcont p,h2{
+    color: white;
+}
+
